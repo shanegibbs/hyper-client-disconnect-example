@@ -1,0 +1,12 @@
+[package]
+name = "hyper-client-disconnect-example"
+version = "0.1.0"
+authors = ["Shane Gibbs <shane@hands.net.nz>"]
+
+[dependencies]
+hyper = { git = "https://github.com/hyperium/hyper.git" }
+futures = "*"
+tokio-core = "*"
+tokio-timer = "*"
+pretty_env_logger = "*"
+env_logger = "0.3"
